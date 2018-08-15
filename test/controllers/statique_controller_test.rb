@@ -11,4 +11,14 @@ class StatiqueControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get service" do
+    get statique_service_url
+    assert_response :success
+  end
+
+  test "should get team" do
+    get statique_team_url
+    assert_response :success
+  end
+
 end
