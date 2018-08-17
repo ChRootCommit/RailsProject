@@ -9,18 +9,21 @@
   </head>
 
   <body>
-    <header>
-      <%= link_to image_tag("dollars.png", alt:"logo"), '%' %>
-    </header>
-    <nav>
-      <ul>
-        <li><% link_to "Accueil", "%" %></li>
-        <li><% link_to "Contact", "%" %></li>
-        <li><% link_to "Service", "%" %></li>
-        <li><% link_to "Team", "%" %></li>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+    <div>
+      <%= link_to image_tag("dollars.png", alt:"logo", height: '100', width: '100'), '%', class: "logo" %>
+      <nav>
+      <ul class="nav navbar-nav navbar-right" >
+        <li><%= link_to "Accueil", "%" %></li>
+        <li><%= link_to "Contact", "%" %></li>
+        <li><%= link_to "Service", "%" %></li>
+        <li><%= link_to "Team", "%" %></li>
       </ul>
-    <nav>
-    <section><%= yield %></section>
+      </nav>
+      </div>
+    </header>
+    
+    <section class="container"><%= yield %></section>
     <footer><p>&copy Excaling 2017-2018</p></footer>
   </body>
 </html>
