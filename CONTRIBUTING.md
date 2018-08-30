@@ -4,7 +4,7 @@
 
 ### Get Buyoff Or Find Open Community Issues/Features
 
-* Through GitHub, or through the [Discord](https://discord.gg/nfrrx4R) (preferred), you talk about a feature you would like to see (or a bug), and why it should be in the gCKn application.
+* Through GitHub, you talk about a feature you would like to see (or a bug), and why it should be in the gCKn application.
   * If approved through the Chat Room, ensure the accompanying GitHub issue is created with information and a link back to the Chat Room discussion.
 * Once you get a nod you can start on the feature.
 
