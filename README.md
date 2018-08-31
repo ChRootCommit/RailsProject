@@ -46,7 +46,7 @@ require "test_helper"
 
 class StatiqueControllerTest < ActionDispatch::IntegrationTest
   def setup
-    @baseTitle = "Tutoriel RoR Udemy"
+    @baseTitle = "Projet"
   end
 
   test "should get root" do
