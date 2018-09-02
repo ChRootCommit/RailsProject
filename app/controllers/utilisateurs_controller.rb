@@ -4,7 +4,7 @@ class UtilisateursController < ApplicationController
   end
  
   def show
-    @utilisateur = Utilisateur.find(1) #ou find(params[:id])
+    @utilisateur = Utilisateur.find(params[:id]) #ou find(params[:id])
   end
 
   def create
